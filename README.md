@@ -1,7 +1,7 @@
 
 # 🌈 Muestra de POM en Selenium para mis amigos 
 
- Esta practica se centra en aplicar el modelo de diseño Page Object Model (POM) para hacer tests. Este diseño ayuda a reutilizar código, evitando repetición  y por su sergmentación permite una buena organización que le hace más fácil actualizar/matener las pruebas en el tiempo.
+ Esta practica se centra en aplicar el modelo de diseño Page Object Model (POM) para hacer tests. Este diseño ayuda a reutilizar código, evitando repetición  y por su segmentación permite una buena organización que le hace más fácil actualizar/matener las pruebas en el tiempo.
  
 ## 💌 Como entenderlo :
 
