@@ -1,7 +1,7 @@
 
 # 🌈 Muestra de POM en Selenium para mis amigos 
 
- En esta practica se centra en aplicar el modelo de diseño Page Object Model (POM) para hacer tests. Este diseño ayuda a reutilizar código evitando repetición  y, por su sergmentación dando una buena organización, hace más fácil actualizar/matener las pruebas en el tiempo.
+ Esta practica se centra en aplicar el modelo de diseño Page Object Model (POM) para hacer tests. Este diseño ayuda a reutilizar código, evitando repetición  y por su sergmentación permite una buena organización que le hace más fácil actualizar/matener las pruebas en el tiempo.
  
 ## 💌 Como entenderlo :
 
@@ -9,11 +9,11 @@ Para no enloquecer en la lectura y entender el formato POM recomiendo tener este
 
 Lo importante del código esta en la carpeta **"src"** , ahí vas a encontrar dos carpetas: 
 
-- **main/java/com/saucedemo/pages** que es donde se pone todo lo referente a las paginas que se prueban. 
+- **main/java/com/saucedemo/pages** que es donde se pone todo **lo referente a las paginas** que se prueban. 
 
-- **test/java/com/saucedemo/tests** que es donde se pone todo lo referente a los test que se quieren correr.
+- **test/java/com/saucedemo/tests** que es donde se pone todo **lo referente a los test** que se quieren correr.
 
-(La principal caracteristica de este formato es que existe una separación clara entre el código específico perteneciente a las páginas y el código de prueba). 
+(La principal caracteristica de este formato es que existe una separación clara entre el código específico perteneciente a las páginas y el código de las pruebas). 
 
   :shipit: *Break ardillita para respirar profundo y meternos el lo importante que es la estructura o esquematizacion:*
 
@@ -21,14 +21,14 @@ Son pruebas simples porque aquí lo importante es la estructura, no los test en 
 
 1) Entrar a la pagina https://www.saucedemo.com/ poner mal la contraseña , que se muestre el mensaje de error , y *comprobar que está ese mensaje de error*. 
 
-2) Un logIn exitoso seguido de *comprobar que está la cabecera en el Home* . 
+2) Un logIn exitoso seguido de *comprobar que está la cabecera en el Home(ProductsPage)* . 
 
 
 El Test 1 se realiza completamente dentro de la página que llamaremos LogIn.
 El Test 2, en cambio, comienza en la página LogIn y realiza una transición hacia otra página que llamaremos ProductsPage.
 
 
-Esto esta esquematizado de la  siguiente manera:  
+Está esquematizado de la  siguiente manera:  
 
 ## Esquema de flujo: 
 
