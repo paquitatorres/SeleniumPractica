@@ -1,7 +1,7 @@
 
 # 🌈 Muestra de POM en Selenium para mis amigos 
 
- En esta práctica se centra en el modelo de diseño Page Object Model (POM) para hacer tests. Este diseño ayuda a reutilizar código, evita repetir código y, por su buena organización, hace más fácil actualizar/matener las pruebas en el tiempo.
+ En esta practica se centra en aplicar el modelo de diseño Page Object Model (POM) para hacer tests. Este diseño ayuda a reutilizar código evitando repetición  y, por su sergmentación dando una buena organización, hace más fácil actualizar/matener las pruebas en el tiempo.
  
 ## 💌 Como entenderlo :
 
@@ -13,7 +13,7 @@ Lo importante del código esta en la carpeta **"src"** , ahí vas a encontrar do
 
 - **test/java/com/saucedemo/tests** que es donde se pone todo lo referente a los test que se quieren correr.
 
-(La principal caracteristica de este formato es que existe una separación clara entre el código específico perteneciente a la página y el código de prueba). 
+(La principal caracteristica de este formato es que existe una separación clara entre el código específico perteneciente a las páginas y el código de prueba). 
 
   :shipit: *Break ardillita para respirar profundo y meternos el lo importante que es la estructura o esquematizacion:*
 
@@ -30,7 +30,7 @@ El Test 2, en cambio, comienza en la página LogIn y realiza una transición hac
 
 Esto esta esquematizado de la  siguiente manera:  
 
-## Esquema: 
+## Esquema de flujo: 
 
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
