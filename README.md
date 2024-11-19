@@ -1,7 +1,19 @@
 
 # 🌈 Muestra de POM en Selenium para mis amigos 
 
- Esta practica se centra en aplicar el modelo de diseño Page Object Model (POM) para hacer tests. Este diseño ayuda a reutilizar código, evitando repetición  y por su segmentación permite una buena organización que le hace más fácil actualizar/matener las pruebas en el tiempo.
+ Esta practica se centra en aplicar el modelo de diseño Page Object Model (POM) para hacer tests. Este diseño ayuda a reutilizar código, evitando repetición  y por su segmentación permite una buena organización que hace más fácil actualizar/matener las pruebas en el tiempo.
+
+ ## Tools y dependencias : 
+
+- Lenguaje Java (Java- JDK 22 pero cualquiera esta bien). 
+- Framework Intellij Idea
+- Dependencias de Maven  :
+  
+     - Selenium 
+     - WebDriverManager de Boni Garcia
+     -  TestNG
+
+Estan especificadas en **" pom.xml"** .  
  
 ## 💌 Como entenderlo :
 
