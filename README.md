@@ -27,7 +27,7 @@ Lo importante del código esta en la carpeta **"src"** , ahí vas a encontrar do
 
 (La principal caracteristica de este formato es que existe una separación clara entre el código específico perteneciente a las páginas y el código de las pruebas). 
 
-  :shipit: *Break ardillita para respirar profundo y meternos el lo importante que es la estructura o esquematizacion:*
+  :shipit: *Break ardillita para respirar profundo y meternos en lo más importante que es la estructura o esquematizacion:*
 
 Son pruebas simples porque aquí lo importante es la estructura, no los test en sí: 
 
